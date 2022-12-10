@@ -1,0 +1,25 @@
+@import url(styles/cartao.css);
+@import url(styles/banner.css);
+@import url(styles/header.css);
+@import url(styles/carrossel.css);
+@import url(styles/topicos.css);
+
+:root {
+    --cor-fundo-padrao:#EBECEE;
+    --cor-branco-padrao:#FFFFFF;
+    --cor-laranja: #EB9B00;
+    --cor-azul-padrao: rgba(0, 47, 82, 1);
+    --cor-azul-gradient: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --fonte-padrao: "Poppins";
+    --cor-preto-padrao: rgba(0, 0, 0, 0.85);
+
+}
+
+
+body {
+    background-color: var(--cor-fundo-padrao);
+    font-family: var(--fonte-padrao);
+    font-size: 16px;
+    font-weight: 400;
+}
+

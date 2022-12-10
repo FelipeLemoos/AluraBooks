@@ -1,0 +1,42 @@
+.banner{
+    background: var(--cor-azul-gradient);
+    color: var(--cor-branco-padrao);
+    text-align: center;
+}
+
+.banner__titulo {
+    font-weight: 700;
+    font-size: 18px;
+    padding: 2em 0 1em 0;
+
+
+}
+
+.banner__conteudo {
+    font-weight: 500;
+    padding: 0 3em 1.5em 3em;
+
+}
+
+.banner__input {
+    font-weight: 400;
+    font-size: 14px;
+    border: 1px solid var(--cor-branco-padrao);
+    border-radius: 40px;
+    background: transparent;
+    width: 90vw;
+    padding: 1em;
+    margin-bottom: 2em;
+    color: var(--cor-branco-padrao);
+
+}
+
+.banner__input::placeholder {
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--cor-branco-padrao);
+    text-align: center;
+    background-image: url(../img/IconSearch.svg);
+    background-repeat: no-repeat;
+    background-position-x: 10vw;
+}
